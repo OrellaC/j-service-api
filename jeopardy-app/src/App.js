@@ -11,7 +11,7 @@ class App extends Component {
 
     fetch('http://jservice.io/api/random')
       .then(response => response.json())
-      .then(data => this.setState({ jeopardyInfo: data[0].question }))
+      .then(data => this.setState({ jeopardyInfo: data[0]}))
       .catch(error => console.error(error))
   }
 
