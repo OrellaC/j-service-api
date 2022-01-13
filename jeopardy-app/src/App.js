@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import GameInfo from './GameInfo';
 
 class App extends Component {
 
