@@ -1,0 +1,45 @@
+/* 6. Add other elements to your page to make it make sense and look good (see attached image) */
+/* 10. Add a little style and color to your app */
+
+*{
+  background-color: skyblue;
+}
+
+#container{
+align-items: center;
+justify-content: center;
+text-align: center;
+
+}
+
+.header{
+  color: white;
+  font-size: 25px
+
+}
+h2 {
+  color: black;
+}
+
+ /* =========================== CSS for Buttons ============================= */
+
+ .subtract{
+  background-color: coral;
+  border-radius: 12px;
+  font-size: 20px;
+}
+.add{
+  background-color: rgb(123, 200, 123);
+  border-radius: 12px;
+  font-size: 20px;
+}
+.question{
+  background-color: pink;
+  border-radius: 12px;
+  font-size: 20px;
+}
+.answer{
+  background-color: greenyellow;
+  border-radius: 12px;
+  font-size: 20px;
+}
